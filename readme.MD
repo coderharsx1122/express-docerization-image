@@ -49,7 +49,7 @@ CMD ["npm","run","dev"]
 
   4. run your docker image (it will start container from your image)
    ```shell
-   docker run --rm -d -p 5500:5000 --name express-docker-container docker-express-image
+   docker run --rm -d -p 5000:5500 --name express-docker-container docker-express-image
    ```
  After container is running you will get an hash id  
    ```shell
